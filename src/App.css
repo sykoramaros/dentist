@@ -24,3 +24,45 @@
 .text-shadow {
   text-shadow: 0px 0px 1px #000000a3;
 }
+
+.btn-primary {
+  background-color: #3b66b2 !important;
+  border-color: #3b66b2 !important;
+}
+
+.btn-primary:hover {
+  background-color: #3ba2b3 !important;
+  border-color: #3ba2b3 !important;
+}
+
+.btn-secondary {
+  background-color: #3ba2b3 !important;
+  border-color: #3ba2b3 !important;
+}
+
+.btn-secondary:hover {
+  background-color: #3b66b2 !important;
+  border-color: #3b66b2 !important;
+}
+
+.btn-success {
+  background-color: #3bb285 !important;
+  border-color: #3bb285 !important;
+}
+
+.btn-success:hover {
+  background-color: #3b66b2 !important;
+  border-color: #3b66b2 !important;
+}
+
+.btn-light {
+  background-color: #dce4e6 !important;
+  border-color: #dce4e6 !important;
+  color: #3b66b2 !important;
+}
+
+.btn-light:hover {
+  background-color: #3bb285 !important;
+  border-color: #3bb285 !important;
+  color: #ffffff !important;
+}
