@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dentist/static/css/main.f855e6bc.css",
+    "main.js": "/dentist/static/js/main.3d80af16.js",
+    "index.html": "/dentist/index.html",
+    "main.f855e6bc.css.map": "/dentist/static/css/main.f855e6bc.css.map",
+    "main.3d80af16.js.map": "/dentist/static/js/main.3d80af16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.3d80af16.js"
+  ]
+}
