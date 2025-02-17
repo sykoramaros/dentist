@@ -6,7 +6,7 @@ const Home = () => {
     <div>
       <div className="container">
         <div className="row row-cols-1 row-cols-md-2 d-flex align-items-center mt-5 m-md-0 g-5">
-          <div className="col border">
+          <div className="col">
             <h1 className="display-3 text-black fw-bold text-uppercase">
               Dental care
               <br />
@@ -23,7 +23,7 @@ const Home = () => {
               dental care tips &nbsp;&nbsp;→
             </Link>
           </div>
-          <div className="col border">
+          <div className="col">
             <img
               src={`${process.env.PUBLIC_URL}/img/dentist_home.png`}
               alt="dentist"
