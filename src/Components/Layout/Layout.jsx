@@ -6,7 +6,7 @@ import "./Layout.css"
 const Layout = () => {
   return (
     <div>
-      <div className="main-card">
+      <div className="main-card d-flex flex-column justify-content-between">
         <Navbar />
         <Outlet />
         <Footer />

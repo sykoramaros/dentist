@@ -1,0 +1,26 @@
+.text-primary {
+  color: #3b66b2 !important;
+}
+
+.text-secondary {
+  color: #3ba2b3 !important;
+}
+
+.text-secondary:hover {
+  color: #3b66b2 !important;
+  transform: scale(1.03);
+  transition: color 0.2s ease, transform 0.2s ease;
+  transition-delay: 20ms;
+}
+
+.text-success {
+  color: #3bb285 !important;
+}
+
+.text-light {
+  color: #dce4e6 !important;
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 1px #000000a3;
+}
