@@ -1,12 +1,18 @@
 import React from "react"
 import { HashRouter, Routes, Route } from "react-router-dom"
 import "./App.css"
+import Layout from "./Components/Layout/Layout"
+import Home from "./Pages/Home/Home"
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>React App</h1>
-    </div>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
+    </HashRouter>
   )
 }
 
