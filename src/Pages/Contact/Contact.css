@@ -1,0 +1,17 @@
+.contact-list-font {
+  font-size: 1.2rem;
+}
+.contact-list-img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 1070px) {
+  .contact-list-font {
+    font-size: 1.5rem;
+  }
+  .contact-list-img {
+    width: 50px;
+    height: 50px;
+  }
+}

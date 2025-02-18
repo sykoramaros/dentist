@@ -1,4 +1,5 @@
 import React from "react"
+import "./Contact.css"
 
 const Contact = () => {
   return (
@@ -8,49 +9,45 @@ const Contact = () => {
           <div className="col-12 col-md-7 col-lg-6 col-xl-5 ">
             <div className="bg-success p-4 position-relative z-2 rounded-5">
               <h1 className="text-center display-4 text-white">Contact</h1>
-              <ul className="list-group list-group-flush fs-4">
+              <ul className="list-group list-group-flush contact-list-font">
                 <li className="list-group-item border-0 bg-success text-white">
-                  <div className="d-flex align-items-center justify-content-start gap-4 border-bottom">
+                  <div className="d-flex align-items-center justify-content-start gap-4 border-bottom pb-3">
                     <img
-                      className="img-fluid"
+                      className="img-fluid contact-list-img"
                       src={`${process.env.PUBLIC_URL}/img/location.svg`}
                       alt="location"
-                      width="60px"
                     />
-                    <p>123 Anywhere Street, Any City, ST 12345</p>
+                    <p className="mb-0">123 Anywhere Street, Any City, ST 12345</p>
                   </div>
                 </li>
                 <li className="list-group-item border-0 bg-success text-white">
-                  <div className="d-flex align-items-center justify-content-start gap-4 border-bottom">
+                  <div className="d-flex align-items-center justify-content-start gap-4 border-bottom pb-3">
                     <img
-                      className="img-fluid"
+                      className="img-fluid contact-list-img"
                       src={`${process.env.PUBLIC_URL}/img/phone.svg`}
-                      alt="location"
-                      width="60px"
+                      alt="phone"
                     />
-                    <p>123-456-7890</p>
+                    <p className="mb-0">123-456-7890</p>
                   </div>
                 </li>
                 <li className="list-group-item border-0 bg-success text-white">
-                  <div className="d-flex align-items-center justify-content-start gap-4 border-bottom">
+                  <div className="d-flex align-items-center justify-content-start gap-4 border-bottom pb-3">
                     <img
-                      className="img-fluid"
+                      className="img-fluid contact-list-img"
                       src={`${process.env.PUBLIC_URL}/img/email.svg`}
-                      alt="location"
-                      width="60px"
+                      alt="email"
                     />
-                    <p>healthy@smile.com</p>
+                    <p className="mb-0">healthy@smile.com</p>
                   </div>
                 </li>
                 <li className="list-group-item border-0 bg-success text-white">
-                  <div className="d-flex align-items-center justify-content-start gap-4 border-bottom">
+                  <div className="d-flex align-items-center justify-content-start gap-4 border-bottom pb-3">
                     <img
-                      className="img-fluid"
+                      className="img-fluid contact-list-img"
                       src={`${process.env.PUBLIC_URL}/img/web.svg`}
-                      alt="location"
-                      width="60px"
+                      alt="web"
                     />
-                    <p>www.healthysmile.com</p>
+                    <p className="mb-0">www.healthysmile.com</p>
                   </div>
                 </li>
               </ul>
