@@ -10,7 +10,7 @@ const About = () => {
           className="position-absolute bottom-0 start-0 h-75 w-auto z-2 me-auto opacity-75"
           style={{ pointerEvents: "none" }}
         />
-        <div className="row d-flex align-items-center justify-content-around mt-1 g-5 position-relative">
+        <div className="row d-flex align-items-center justify-content-around mt-0 g-5 position-relative mb-3">
           <div className="col-12 col-md-6 "></div>
           <div className="col-12 col-md-6 position-relative z-2">
             <div className="text-end text-black ">
