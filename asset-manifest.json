@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dentist/static/css/main.1f4ea11d.css",
-    "main.js": "/dentist/static/js/main.8703a738.js",
+    "main.js": "/dentist/static/js/main.78efb5d4.js",
     "index.html": "/dentist/index.html",
     "main.1f4ea11d.css.map": "/dentist/static/css/main.1f4ea11d.css.map",
-    "main.8703a738.js.map": "/dentist/static/js/main.8703a738.js.map"
+    "main.78efb5d4.js.map": "/dentist/static/js/main.78efb5d4.js.map"
   },
   "entrypoints": [
     "static/css/main.1f4ea11d.css",
-    "static/js/main.8703a738.js"
+    "static/js/main.78efb5d4.js"
   ]
 }
