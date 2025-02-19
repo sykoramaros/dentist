@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="container">
         <div className="row d-flex align-items-center justify-content-around mt-1 g-5">
           <div className="col-12 col-md-7 col-lg-6 col-xl-5 ">
-            <div className="bg-success p-4 position-relative z-2 rounded-5">
+            <div className="bg-success opacity-75 p-4 position-relative z-2 rounded-5">
               <h1 className="text-center display-4 text-white">Contact</h1>
               <ul className="list-group list-group-flush contact-list-font">
                 <li className="list-group-item border-0 bg-success text-white">
@@ -17,7 +17,9 @@ const Contact = () => {
                       src={`${process.env.PUBLIC_URL}/img/location.svg`}
                       alt="location"
                     />
-                    <p className="mb-0">123 Anywhere Street, Any City, ST 12345</p>
+                    <p className="mb-0">
+                      123 Anywhere Street, Any City, ST 12345
+                    </p>
                   </div>
                 </li>
                 <li className="list-group-item border-0 bg-success text-white">
