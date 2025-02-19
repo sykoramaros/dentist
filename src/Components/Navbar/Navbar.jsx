@@ -5,7 +5,7 @@ import "./Navbar.css"
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg position-relative">
+      <nav className="navbar navbar-expand-sm position-relative">
         <div className="container-fluid ">
           <Link className="navbar-brand" to={"/"}>
             <img
@@ -28,7 +28,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto fs-4 gap-5 text-shadow text-uppercase">
+            <ul className="navbar-nav ms-auto fs-4 fs-md-4 fs-lg-3 gap-0 gap-md-4 gap-lg-5 text-shadow text-uppercase">
               <li className="nav-item">
                 <Link
                   className="nav-link active text-secondary fw-bold"
@@ -44,12 +44,18 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-secondary fw-bold" to={"/pricing"}>
+                <Link
+                  className="nav-link text-secondary fw-bold"
+                  to={"/pricing"}
+                >
                   Pricing
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-secondary fw-bold" to={"/contact"}>
+                <Link
+                  className="nav-link text-secondary fw-bold"
+                  to={"/contact"}
+                >
                   Contact
                 </Link>
               </li>

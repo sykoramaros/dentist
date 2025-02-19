@@ -1,0 +1,15 @@
+.tips-list-img {
+  width: 150px;
+}
+
+.tips-list {
+  padding: 70px 0;
+  border-bottom: 1px solid #3b66b2 !important;
+}
+
+@media (max-width: 480px) {
+  .tips-list {
+    border-bottom: none !important;
+    padding: 0 !important;
+  }
+}

@@ -17,7 +17,7 @@ const Home = () => {
               doloribus quae illo, velit repellat accusamus iure ut, beatae.
             </p>
             <Link
-              to="/contact"
+              to="/tips"
               className="btn btn-lg btn-primary fw-bold text-uppercase rounded-5 mt-5"
             >
               dental care tips &nbsp;&nbsp;→

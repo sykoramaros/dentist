@@ -10,7 +10,7 @@
 @media (min-width: 820px) {
   .main-card {
     min-height: auto;
-    max-height: 700px;
+    /* max-height: 700px; */
   }
 }
 
