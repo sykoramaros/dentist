@@ -5,12 +5,12 @@ const Pricing = () => {
     <div>
       <div className="container">
         <div
-          className="row d-flex align-items-center justify-content-around mt-1 g-5"
-          style={{ height: "500px" }}
+          className="row d-flex align-items-start justify-content-around mt-1 g-5"
+          style={{ height: "auto" }}
         >
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-lg-6">
             <ul className="fs-4">
-              <h1 className="text-uppercase fs-3">
+              <h1 className="text-uppercase fs-3 mb-4">
                 We work with the following insurance providers:
               </h1>
               <li>
@@ -25,23 +25,30 @@ const Pricing = () => {
               <li>
                 <p>Zdravotní pojišťovna Ministerstva vnitra ČR (ZP MV ČR)</p>
               </li>
-              <li>
-                <p>Slovenská zdravotní pojišťovna</p>
-              </li>
             </ul>
           </div>
-          <div
+          {/* <div
             className="col-1 d-none d-md-block"
             style={{
               borderLeft: "1px solid black",
               height: "90%",
               width: "0",
+              backgroundColor: "black",
             }}
-          ></div>
-          <div className="col-12 col-md-5">
+          ></div> */}
+          {/* <hr
+            className="d-none d-md-block"
+            style={{
+              borderLeft: "300px solid red",
+              border: "none",
+              height: "90%",
+            }}
+            adafaag
+          /> */}
+          <div className="col-12 col-lg-6">
             <ul className="fs-4">
-              <h1 className="text-uppercase fs-3">
-                We work with the following insurance providers:
+              <h1 className="text-uppercase fs-3 mb-4">
+                Our Services and Prices:
               </h1>
               <li>
                 <p>Preventive Check-up – 800 Kč</p>

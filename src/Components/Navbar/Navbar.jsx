@@ -35,7 +35,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto fs-4 fs-md-4 fs-lg-3 gap-0 gap-md-4 gap-lg-5 text-shadow text-uppercase">
+            <ul className="navbar-nav ms-auto fs-4 fs-md-4 fs-lg-3 gap-0 gap-md-4 gap-lg-5 text-shadow text-uppercase d-flex align-items-center">
               <li className="nav-item">
                 <Link
                   className={`nav-link fw-bold ${

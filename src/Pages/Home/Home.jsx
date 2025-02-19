@@ -18,7 +18,7 @@ const Home = () => {
             </p>
             <Link
               to="/tips"
-              className="btn btn-lg btn-primary fw-bold text-uppercase rounded-5 mt-5"
+              className="btn btn-lg btn-primary text-white fw-bold text-uppercase rounded-5 mt-5 position-relative z-2"
             >
               dental care tips &nbsp;&nbsp;→
             </Link>
